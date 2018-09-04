@@ -1,0 +1,59 @@
+@font-face {
+  font-family: MerchantCopy;
+  src: url("Merchant Copy.ttf"); }
+* {
+  box-sizing: border-box;
+  font-family: MerchantCopy;
+  font-size: 24px;
+  color: MidnightBlue; }
+
+body {
+  margin: 0; }
+
+main {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background-color: lightgray; }
+
+#title {
+  margin: 0 0 24px 0; }
+  #title p {
+    margin: 0;
+    text-align: center; }
+
+#heading {
+  margin: 0 0 24px 0; }
+  #heading p {
+    margin: 0;
+    font-size: 22px; }
+
+#receipt {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px 16px 50px 16px; }
+  #receipt input {
+    width: 60px;
+    border: none;
+    border-bottom: 2px solid MidnightBlue;
+    text-align: right; }
+    #receipt input:focus {
+      outline: none;
+      border-bottom: 3px solid MidnightBlue; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+tr {
+  height: 23px; }
+
+td {
+  padding: 1px; }
+
+td:nth-child(2) {
+  text-align: right; }
+
+/*# sourceMappingURL=index.css.map */
