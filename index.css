@@ -35,6 +35,12 @@ main {
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 50px 16px 50px 16px; }
+  #receipt tr {
+    height: 23px; }
+  #receipt td {
+    padding: 1px; }
+    #receipt td:nth-child(2) {
+      text-align: right; }
   #receipt input {
     width: 60px;
     border: none;
@@ -43,17 +49,7 @@ main {
     #receipt input:focus {
       outline: none;
       border-bottom: 3px solid MidnightBlue; }
-
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
-  -webkit-appearance: none; }
-
-tr {
-  height: 23px; }
-
-td {
-  padding: 1px; }
-
-td:nth-child(2) {
-  text-align: right; }
+    #receipt input::-webkit-outer-spin-button, #receipt input::-webkit-inner-spin-button {
+      -webkit-appearance: none; }
 
 /*# sourceMappingURL=index.css.map */
